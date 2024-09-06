@@ -31,7 +31,7 @@ defineProps({
      
 
       <!-- Shoe job listing when done loading -->
-      <div  class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div  class="grid grid-cols-1 md:grid-cols-3 gap-6 p-">
         <JobListing
           v-for="job in jobs.slice(0, limit || jobs.length)"
           :key="job.id"
