@@ -31,7 +31,7 @@ defineProps({
      
 
       <!-- Shoe job listing when done loading -->
-      <div  class="grid grid-cols-1 md:grid-cols-3 gap-6 p-">
+      <div  class="grid grid-cols-1 md:grid-cols-3 gap-6 p-0">
         <JobListing
           v-for="job in jobs.slice(0, limit || jobs.length)"
           :key="job.id"
@@ -42,13 +42,9 @@ defineProps({
   </section>
 
   <section v-if="showButton" class="m-auto max-w-lg my-10 px-6">
-    <!-- <RouterLink
-      to="/jobs"
-      class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
-      > -->
+
       <button  class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"> View All Jobs</button>
      
-      <!-- </RouterLink -->
 
   </section>
 </template>

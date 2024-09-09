@@ -1,9 +1,35 @@
 <script setup>
-import {defineProps} from "vue"
-defineProps({
-    job:Object
-})
+import {defineProps,ref,computed} from "vue"
 
+
+
+// const props = defineProps({
+//     job:Object
+// });
+
+// const showFullDescription = ref(false);
+
+// const truncatedDescription = computed(()=>{
+//   let description = props.job.description;
+//   if(!showFullDescription.value){
+//     description = description.substring(0,90) + '...'
+//   }
+//   return description;
+
+// })
+
+const props = defineProps({
+  job:Object
+});
+const showFullDescription = ref(false);
+
+const truncatedDescription = computed(()=>{
+  let description = props.job.description;
+  if(!showFullDescription.value){
+    description = description.substring(0,90) + '...'
+  }
+  return description
+})
 </script>
 
 <template name="component-name">
@@ -13,7 +39,7 @@ defineProps({
         <div class="text-gray-600 my-2">{{ job.type }}</div>
         <h3 class="text-xl font-bold">{{ job.title }}</h3>
       </div>
-
+<div class="mb-5">{{truncatedDescription}}</div>
     
 
       <h3 class="text-green-500 mb-2">{{ job.salary }} / Year</h3>

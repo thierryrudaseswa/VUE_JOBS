@@ -8,6 +8,6 @@ import JobListings from "./components/JobListings.vue"
 <template>
   <Navbar />
   <Hero />
-  <HomeCards />
-  <JobListings :limit="3" />
+  <HomeCards /> 
+  <JobListings :limit="3" :showButton="true" />
 </template>
