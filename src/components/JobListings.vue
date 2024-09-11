@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router';
 import JobListing from './JobListing.vue';
 import { reactive, defineProps, onMounted } from 'vue';
+// import { RouterLink } from 'vue-router';
 // import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 // import axios from 'axios';
 import {ref} from 'vue';
@@ -16,9 +17,6 @@ defineProps({
     default: false,
   },
 });
-
-
-
 
 </script>
 
@@ -42,8 +40,13 @@ defineProps({
   </section>
 
   <section v-if="showButton" class="m-auto max-w-lg my-10 px-6">
+<RouterLink to='/jobs'>
+  <button  class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"> View All Jobs</button>
+</RouterLink>
 
-      <button  class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"> View All Jobs</button>
+
+
+      
      
 
   </section>

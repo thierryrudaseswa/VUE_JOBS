@@ -1,23 +1,5 @@
 <script setup>
 import {defineProps,ref,computed} from "vue"
-
-
-
-// const props = defineProps({
-//     job:Object
-// });
-
-// const showFullDescription = ref(false);
-
-// const truncatedDescription = computed(()=>{
-//   let description = props.job.description;
-//   if(!showFullDescription.value){
-//     description = description.substring(0,90) + '...'
-//   }
-//   return description;
-
-// })
-
 const toggleFullDescription = () => {
   showFullDescription.value = !showFullDescription.value;
 };
@@ -67,13 +49,13 @@ const truncatedDescription = computed(()=>{
         
         </div>
 
-        <button  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm">   Read More</button>
-        <!-- <RouterLink
+        <!-- <button  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm">   Read More</button> -->
+        <RouterLink
           :to="'/jobs/' + job.id"
           class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
           Read More
-        </RouterLink> -->
+        </RouterLink>
       </div>
     </div>
   </div>
