@@ -17,7 +17,7 @@
                 <i
                   class="fa-solid fa-location-dot text-lg text-orange-700 mr-2"
                 ></i>
-                <p class="text-orange-700">Boston, MA</p>
+                <p class="text-orange-700 p-0">Boston, MA</p>
               </div>
             </div>
 
