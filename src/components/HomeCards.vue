@@ -20,7 +20,7 @@ import Card from '@/components/Card.vue';
           </RouterLink>
         </Card>
         <Card bg="bg-green-100">
-          <h2 class="text-2xl font-bold">For Employers</h2>
+          <h2 class="text-2xl p-0 font-bold">For Employers</h2>
           <p class="mt-2 mb-4">
             List your job to find the perfect developer for the role
           </p>

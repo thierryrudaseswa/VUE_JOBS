@@ -15,7 +15,7 @@
                 class="text-gray-500 mb-4 flex align-middle justify-center md:justify-start"
               >
                 <i
-                  class="fa-solid fa-location-dot text-lg text-orange-700 mr-2"
+                  class="fa-solid p-0 fa-location-dot text-lg text-orange-700 mr-2"
                 ></i>
                 <p class="text-orange-700 p-0">Boston, MA</p>
               </div>
