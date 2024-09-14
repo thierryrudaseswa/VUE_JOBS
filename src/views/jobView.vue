@@ -33,7 +33,7 @@
                 JavaScript frameworks such as Vue or Angular.
               </p>
 
-              <h3 class="text-green-800 text-lg font-bold mb-2">Salary</h3>
+              <h3 class="text-green-800 p-0 text-lg font-bold mb-2">Salary</h3>
 
               <p class="mb-4">$70k - $80K / Year</p>
             </div>
