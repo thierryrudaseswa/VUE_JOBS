@@ -26,7 +26,8 @@
                 Job Description
               </h3>
 
-              <p class="mb-4 p-0">
+              <p class="mb-4 p-0
+              ">
                 We are seeking a talented Front-End Developer to join our team
                 in Boston, MA. The ideal candidate will have strong skills in
                 HTML, CSS, and JavaScript, with experience working with modern
