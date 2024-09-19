@@ -26,7 +26,7 @@
                 Job Description
               </h3>
 
-              <p class="mb-4 p-0
+              <p class="mb-4
               ">
                 We are seeking a talented Front-End Developer to join our team
                 in Boston, MA. The ideal candidate will have strong skills in
@@ -46,7 +46,7 @@
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-bold mb-6">Company Info</h3>
 
-              <h2 class="text-2xl">NewTek Solutions</h2>
+              <h2 class="text-2xl p-0">NewTek Solutions</h2>
 
               <p class="my-2">
                 NewTek Solutions is a leading technology company specializing in
