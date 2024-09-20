@@ -36,7 +36,7 @@
 
               <h3 class="text-green-800 p-0 text-lg font-bold mb-2">Salary</h3>
 
-              <p class="mb-4">$70k - $80K / Year</p>
+              <p class="mb-4 p-0">$70k - $80K / Year</p>
             </div>
           </main>
 
@@ -63,7 +63,7 @@
                 contact@newteksolutions.com
               </p>
 
-              <h3 class="text-xl">Contact Phone:</h3>
+              <h3 class="text-xl p-0">Contact Phone:</h3>
 
               <p class="my-2 bg-green-100 p-2 font-bold">555-555-5555</p>
             </div>
