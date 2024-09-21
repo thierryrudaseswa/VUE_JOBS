@@ -17,7 +17,7 @@
                 <i
                   class="fa-solid p-0 fa-location-dot text-lg text-orange-700 mr-2"
                 ></i>
-                <p class="text-orange-700 p-0">Boston, MA</p>
+                <p class="text-orange-700">Boston, MA</p>
               </div>
             </div>
 
@@ -36,7 +36,7 @@
 
               <h3 class="text-green-800 p-0 text-lg font-bold mb-2">Salary</h3>
 
-              <p class="mb-4 p-0">$70k - $80K / Year</p>
+              <p class="mb-4">$70k - $80K / Year</p>
             </div>
           </main>
 
@@ -46,7 +46,7 @@
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-bold mb-6">Company Info</h3>
 
-              <h2 class="text-2xl p-0">NewTek Solutions</h2>
+              <h2 class="text-2xl">NewTek Solutions</h2>
 
               <p class="my-2">
                 NewTek Solutions is a leading technology company specializing in
