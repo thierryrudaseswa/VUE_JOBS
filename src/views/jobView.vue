@@ -42,7 +42,7 @@
 
           <!-- Sidebar -->
           <aside>
-            <!-- Company Info -->
+            
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-bold mb-6">Company Info</h3>
 
