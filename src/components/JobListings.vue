@@ -2,9 +2,7 @@
 import { RouterLink } from 'vue-router';
 import JobListing from './JobListing.vue';
 import { reactive, defineProps, onMounted } from 'vue';
-// import { RouterLink } from 'vue-router';
-// import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
-// import axios from 'axios';
+
 import {ref} from 'vue';
 import jobData from '../jobs.json'
 
@@ -29,7 +27,7 @@ defineProps({
      
 
       <!-- Shoe job listing when done loading -->
-      <div  class="grid grid-cols-1 md:grid-cols-3 gap-6 p-0">
+      <div  class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <JobListing
           v-for="job in jobs.slice(0, limit || jobs.length)"
           :key="job.id"
