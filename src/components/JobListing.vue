@@ -40,9 +40,9 @@ const truncatedDescription = computed(()=>{
 
       <h3 class="text-green-500 mb-2">{{ job.salary }} / Year</h3>
 
-      <div class="border border-gray-100 mb-5"></div>
+      <div class="border border-gray-100 mb-5 p-0"></div>
 
-      <div class="flex flex-col lg:flex-row justify-between mb-4">
+      <div class="flex flex-col lg:flex-row justify-between mb-4 p-0">
         <div class="text-orange-700 mb-3">
            <i class="pi pi-map-marker text-orange-700"></i>
           {{ job.location }}
