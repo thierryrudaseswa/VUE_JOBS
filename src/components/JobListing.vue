@@ -23,7 +23,7 @@ const truncatedDescription = computed(()=>{
     <div class="p-4">
       <div class="mb-6">
         <div class="text-gray-600 my-2">{{ job.type }}</div>
-        <h3 class="text-xl font-bold">{{ job.title }}</h3>
+        <h3 class="text-xl font-bold p-0">{{ job.title }}</h3>
       </div>
 <div class="mb-5">
    <div>
